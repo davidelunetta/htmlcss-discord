@@ -25,7 +25,7 @@ header{
 .button{
     color: black;
     background-color:var(--color-secondary);
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 10px;
 }
 ul{
@@ -36,7 +36,6 @@ a{
     text-decoration: none;
     display: block;
     padding: 6px 10px;
-    text-decoration: none;
 }
 .wave{
     background-image: url(../img/wave.svg);
@@ -54,7 +53,8 @@ h2{
 }
 
 .even{
-    background-color: var(--color-bg-section);
+    background-color: #F6F6F6;
+    /* background-color: var(--color-bg-section); */
 }
 .section-content{
     width: 40%;
@@ -89,6 +89,9 @@ h2{
 }
 .column-reverse{
     flex-flow: column-reverse wrap;
+}
+.row{
+    flex-flow: row;
 }
 #hero{
     background-image: url(../img/jumbo.png);
