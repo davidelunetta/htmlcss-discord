@@ -38,8 +38,16 @@ a{
     padding: 6px 10px;
     text-decoration: none;
 }
+h2{
+    
+}
+
 .even{
     color: var(--color-bg-section);
+}
+.section-content{
+    width: 40%;
+    padding: 30px 10px;
 }
 /* FLEX  */
 
@@ -59,7 +67,12 @@ a{
 .flex-end{
     justify-content: flex-end;
 }
-
+.flex-between{
+    justify-content: space-between;
+}
+.reverse-justify-center{
+    flex-flow: row-reverse wrap;
+}
 #hero{
     background-image: url(../img/jumbo.png);
     min-height: 500px;
