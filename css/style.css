@@ -38,12 +38,23 @@ a{
     padding: 6px 10px;
     text-decoration: none;
 }
+.wave{
+    background-image: url(../img/wave.svg);
+    min-height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.03;
+
+}
 h2{
-    
+    margin-bottom: 20px;
+}
+.img-section{
+    display: inline-block;
 }
 
 .even{
-    color: var(--color-bg-section);
+    background-color: var(--color-bg-section);
 }
 .section-content{
     width: 40%;
@@ -61,6 +72,9 @@ h2{
 .flex-center{
     justify-content: center;
 }
+.flex-start{
+    justify-content: flex-start;
+}
 .flex-right{
     justify-content: right;
 }
@@ -72,6 +86,9 @@ h2{
 }
 .reverse-justify-center{
     flex-flow: row-reverse wrap;
+}
+.column-reverse{
+    flex-flow: column-reverse wrap;
 }
 #hero{
     background-image: url(../img/jumbo.png);
@@ -85,5 +102,12 @@ h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: var(--color-secondary);
+}
+
+/* footer */
+
+footer{
+    background-color: var(--color-primary);
     color: var(--color-secondary);
 }
